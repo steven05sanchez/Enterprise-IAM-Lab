@@ -62,3 +62,30 @@ As the company's Identity & Access Management Analyst, my responsibilities inclu
 ---
 
 **Status:** 🚧 In Progress
+
+---
+
+# Phase 1 - User Provisioning
+
+## Objective
+
+Provision enterprise identities for BroncoTech Solutions employees.
+
+## Tasks Completed
+
+- Created 10 enterprise user accounts
+- Assigned Microsoft Entra ID P2 licenses
+- Configured employee profile information
+- Implemented standardized username naming conventions
+- Verified successful account provisioning
+
+## Skills Demonstrated
+
+- User Provisioning
+- Identity Management
+- Microsoft Entra ID Administration
+- Enterprise Identity Lifecycle
+
+## What I Learned
+
+In this phase, I learned how enterprise organizations provision user accounts, assign licenses, and establish a standardized identity structure before granting permissions. I also learned why users should begin with the least amount of privilege and receive additional access only when required.
