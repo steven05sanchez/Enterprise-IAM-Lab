@@ -89,3 +89,43 @@ Provision enterprise identities for BroncoTech Solutions employees.
 ## What I Learned
 
 In this phase, I learned how enterprise organizations provision user accounts, assign licenses, and establish a standardized identity structure before granting permissions. I also learned why users should begin with the least amount of privilege and receive additional access only when required.
+
+---
+
+# Phase 2 - Security Groups & RBAC
+
+## Objective
+
+Implement department-based security groups using Role-Based Access Control (RBAC) to simplify access management and follow the Principle of Least Privilege.
+
+## Security Groups Created
+
+- IT_Admins
+- IT_Support
+- HR_Users
+- Finance_Users
+- Sales_Users
+- Marketing_Users
+- Engineering_Users
+- Executives
+
+## Tasks Completed
+
+- Created department-based security groups
+- Implemented standardized group naming conventions
+- Designed the environment using RBAC principles
+- Prepared the environment for user-to-group assignments
+
+## Skills Demonstrated
+
+- Microsoft Entra ID
+- Security Groups
+- Role-Based Access Control (RBAC)
+- Least Privilege
+- Identity Administration
+
+## What I Learned
+
+I learned that enterprise organizations rarely assign permissions directly to users. Instead, users are assigned to security groups, and permissions are granted to those groups. This approach makes identity management easier, more scalable, and more secure.
+
+
