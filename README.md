@@ -128,4 +128,29 @@ Implement department-based security groups using Role-Based Access Control (RBAC
 
 I learned that enterprise organizations rarely assign permissions directly to users. Instead, users are assigned to security groups, and permissions are granted to those groups. This approach makes identity management easier, more scalable, and more secure.
 
+---
+
+# Phase 3 - User Group Assignments
+
+## Objective
+
+Assign enterprise users to department-based security groups using Role-Based Access Control (RBAC).
+
+## Tasks Completed
+
+- Assigned users to department security groups
+- Applied the Principle of Least Privilege
+- Implemented standardized role assignments
+
+## Skills Demonstrated
+
+- Group Membership Management
+- Role-Based Access Control (RBAC)
+- Microsoft Entra ID Administration
+- Enterprise Identity Management
+
+## What I Learned
+
+I learned that permissions should be assigned to groups instead of individual users. This simplifies identity administration, improves scalability, and reduces administrative overhead when employees change roles or departments.
+
 
