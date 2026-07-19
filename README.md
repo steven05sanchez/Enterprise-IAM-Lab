@@ -1,102 +1,89 @@
-# Enterprise Identity & Access Management Lab
+# Enterprise Identity & Access Management (IAM) Lab
 
 ## Overview
 
-This project simulates an enterprise Identity & Access Management (IAM) environment for a fictional company named BroncoTech Solutions.
+This project is a hands-on Microsoft Entra ID lab where I built a simulated Identity and Access Management (IAM) environment for a fictional company called **BroncoTech Solutions**.
 
-The goal is to demonstrate hands-on experience with identity lifecycle management, Microsoft Entra ID, PowerShell automation, role-based access control (RBAC), Multi-Factor Authentication (MFA), Conditional Access, and cloud identity administration.
+The goal of this project was to better understand how organizations manage users, control access, and secure identities using Microsoft Entra ID. Throughout this project, I practiced many of the tasks that an IAM analyst would perform in an enterprise environment.
 
 ---
 
 ## Business Scenario
 
-BroncoTech Solutions is a growing technology company with approximately 200 employees.
+BroncoTech Solutions is a fictional technology company with approximately 200 employees.
 
-As the company's Identity & Access Management Analyst, my responsibilities include:
+For this project, I acted as the company's IAM analyst and was responsible for:
 
 - Creating employee accounts
-- Managing user permissions
+- Managing user identities
 - Creating security groups
+- Assigning users to groups
 - Assigning administrative roles
-- Securing identities with MFA
-- Managing employee onboarding and offboarding
-- Automating identity management with PowerShell
+- Reviewing authentication methods
+- Creating a Conditional Access policy
 
 ---
 
-## Technologies
+## Technologies Used
 
 - Microsoft Entra ID
+- Microsoft Entra ID P2
 - Microsoft Azure
-- PowerShell
-- Microsoft Graph PowerShell
+- Conditional Access
 - GitHub
 
 ---
 
 ## Project Roadmap
 
-- [ ] Phase 1 – Identity Foundation
-- [ ] Phase 2 – Security Groups
-- [ ] Phase 3 – Role-Based Access Control (RBAC)
-- [ ] Phase 4 – Authentication & MFA
-- [ ] Phase 5 – Conditional Access
-- [ ] Phase 6 – Identity Lifecycle
-- [ ] Phase 7 – PowerShell Automation
-- [ ] Phase 8 – Security Audit
-- [ ] Phase 9 – Documentation
+- [x] Phase 1 – Identity Foundation
+- [x] Phase 2 – Security Groups
+- [x] Phase 3 – User Group Assignments
+- [x] Phase 4 – Administrative Roles
+- [x] Phase 5 – Authentication Methods
+- [x] Phase 6 – Conditional Access
 
 ---
 
 ## Skills Demonstrated
 
-- Identity & Access Management
+- Identity & Access Management (IAM)
 - Microsoft Entra ID
-- RBAC
-- Least Privilege
-- Identity Lifecycle Management
-- Multi-Factor Authentication
-- PowerShell
-- Security Administration
+- User Provisioning
+- Security Groups
+- Role-Based Access Control (RBAC)
+- Administrative Role Management
+- Conditional Access
+- Authentication Methods
+- Principle of Least Privilege
 
 ---
 
-**Status:** 🚧 In Progress
-
----
-
-# Phase 1 - User Provisioning
+# Phase 1 – Identity Foundation
 
 ## Objective
 
-Provision enterprise identities for BroncoTech Solutions employees.
+Create the initial identity structure for BroncoTech Solutions.
 
 ## Tasks Completed
 
-- Created 10 enterprise user accounts
+- Created enterprise user accounts
 - Assigned Microsoft Entra ID P2 licenses
-- Configured employee profile information
-- Implemented standardized username naming conventions
-- Verified successful account provisioning
-
-## Skills Demonstrated
-
-- User Provisioning
-- Identity Management
-- Microsoft Entra ID Administration
-- Enterprise Identity Lifecycle
+- Configured user profile information
+- Used a consistent username naming convention
+- Verified successful account creation
 
 ## What I Learned
 
-In this phase, I learned how enterprise organizations provision user accounts, assign licenses, and establish a standardized identity structure before granting permissions. I also learned why users should begin with the least amount of privilege and receive additional access only when required.
+This phase helped me understand how organizations provision user accounts and why identity management is the first step before assigning access or permissions.
 
 ---
 
-# Phase 2 - Security Groups & RBAC
+# Phase 2 – Security Groups
 
 ## Objective
 
-Implement department-based security groups using Role-Based Access Control (RBAC) to simplify access management and follow the Principle of Least Privilege.
+Create department-based security groups to organize users and simplify access management.
 
 ## Security Groups Created
 
@@ -111,46 +98,121 @@ Implement department-based security groups using Role-Based Access Control (RBAC
 
 ## Tasks Completed
 
-- Created department-based security groups
-- Implemented standardized group naming conventions
-- Designed the environment using RBAC principles
-- Prepared the environment for user-to-group assignments
-
-## Skills Demonstrated
-
-- Microsoft Entra ID
-- Security Groups
-- Role-Based Access Control (RBAC)
-- Least Privilege
-- Identity Administration
+- Created department security groups
+- Used a consistent naming convention
+- Designed the environment using Role-Based Access Control (RBAC)
 
 ## What I Learned
 
-I learned that enterprise organizations rarely assign permissions directly to users. Instead, users are assigned to security groups, and permissions are granted to those groups. This approach makes identity management easier, more scalable, and more secure.
+I learned that organizations manage permissions through groups instead of assigning permissions directly to individual users. This makes user management easier and more scalable.
 
 ---
 
-# Phase 3 - User Group Assignments
+# Phase 3 – User Group Assignments
 
 ## Objective
 
-Assign enterprise users to department-based security groups using Role-Based Access Control (RBAC).
+Assign users to the appropriate department security groups.
 
 ## Tasks Completed
 
-- Assigned users to department security groups
-- Applied the Principle of Least Privilege
-- Implemented standardized role assignments
-
-## Skills Demonstrated
-
-- Group Membership Management
-- Role-Based Access Control (RBAC)
-- Microsoft Entra ID Administration
-- Enterprise Identity Management
+- Assigned users to department groups
+- Applied Role-Based Access Control (RBAC)
+- Organized access based on job responsibilities
 
 ## What I Learned
 
-I learned that permissions should be assigned to groups instead of individual users. This simplifies identity administration, improves scalability, and reduces administrative overhead when employees change roles or departments.
+I learned that assigning users to security groups makes onboarding, offboarding, and role changes much easier while following the Principle of Least Privilege.
 
+---
 
+# Phase 4 – Administrative Roles
+
+## Objective
+
+Assign administrative roles based on job responsibilities.
+
+## Tasks Completed
+
+- Assigned the Helpdesk Administrator role
+- Assigned the User Administrator role
+- Limited administrative access based on user responsibilities
+
+## What I Learned
+
+This phase helped me understand that not every IT employee should have full administrative privileges. Administrative roles should only be assigned when required.
+
+---
+
+# Phase 5 – Authentication Methods
+
+## Objective
+
+Review the authentication methods available in Microsoft Entra ID.
+
+## Tasks Completed
+
+- Reviewed available authentication methods
+- Learned how organizations manage sign-in options for users
+
+## What I Learned
+
+I learned that organizations can control which authentication methods users are allowed to use in order to improve account security while still providing flexibility.
+
+---
+
+# Phase 6 – Conditional Access
+
+## Objective
+
+Create a Conditional Access policy to require Multi-Factor Authentication (MFA).
+
+## Tasks Completed
+
+- Created the policy **CA001 – Require MFA for Administrators**
+- Configured the policy in Report-only mode
+- Learned how organizations safely test security policies before enabling them
+
+## What I Learned
+
+This phase introduced me to Conditional Access and how organizations use it to enforce security policies without immediately impacting users. Using Report-only mode allows administrators to evaluate the policy before enforcing it.
+
+---
+
+# Screenshots
+
+## Users
+
+![Users](screenshots/01-users-created.png)
+
+---
+
+## Security Groups
+
+![Security Groups](screenshots/02-security-groups.png)
+
+---
+
+## Administrative Role Assignment
+
+![Administrative Role](screenshots/03-helpdesk-adminstrator-assignments.png)
+
+---
+
+## Authentication Methods
+
+![Authentication Methods](screenshots/04-authentication-methods.png)
+
+---
+
+## Conditional Access
+
+![Conditional Access](screenshots/05-conditional-access.png)
+
+---
+
+# Overall Takeaways
+
+This project gave me hands-on experience with many of the core concepts used in Identity and Access Management. Before building this lab, I understood many of these topics from studying for Security+, but completing each phase helped me understand how they work together in a real enterprise environment.
+
+Some of the biggest concepts I learned were user provisioning, Role-Based Access Control (RBAC), administrative role management, authentication methods, Conditional Access, and the Principle of Least Privilege.
