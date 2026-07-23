@@ -10,7 +10,7 @@ The goal of this project was to better understand how organizations manage users
 
 ## Business Scenario
 
-BroncoTech Solutions is a fictional technology company with approximately 200 employees.
+BroncoTech Solutions is a fictional technology company I created for this project. The lab includes 11 employee accounts across multiple departments to simulate an enterprise environment.
 
 For this project, I simulated the responsibilities of an IAM Analyst by:
 
