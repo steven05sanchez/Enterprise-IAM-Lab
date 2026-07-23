@@ -195,7 +195,7 @@ This phase introduced me to Conditional Access and how organizations use it to e
 
 ## Administrative Role Assignment
 
-![Administrative Role](screenshots/03-helpdesk-adminstrator-assignments.png)
+![Administrative Role](screenshots/03-helpdesk-admin-role.png)
 
 ---
 
