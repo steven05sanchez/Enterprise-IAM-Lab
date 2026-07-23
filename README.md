@@ -184,15 +184,6 @@ Create a Conditional Access policy to require Multi-Factor Authentication (MFA).
 
 This phase introduced me to Conditional Access and how organizations use it to strengthen security without immediately impacting users. Using Report-only mode allows administrators to evaluate policies before enforcing them.
 
----
-
-# Architecture Diagram
-
-The diagram below illustrates the overall IAM design implemented for BroncoTech Solutions.
-
-![Architecture Diagram](architecture-diagram.png)
-
----
 
 # Screenshots
 
