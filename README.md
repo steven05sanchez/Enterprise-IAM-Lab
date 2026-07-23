@@ -190,7 +190,7 @@ This phase introduced me to Conditional Access and how organizations use it to s
 
 The diagram below illustrates the overall IAM design implemented for BroncoTech Solutions.
 
-![Architecture Diagram](diagrams/architecture-diagram.png)
+![Architecture Diagram](architecture-diagram.png)
 
 ---
 
