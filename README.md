@@ -38,8 +38,7 @@ For this project, I simulated the responsibilities of an IAM Analyst by:
 
 The diagram below provides a high-level overview of the IAM environment built for BroncoTech Solutions.
 
-![Architecture Diagram](diagrams/architecture-diagram.png)
-
+![Architecture Diagram](architecture-diagram.png)
 ---
 
 ## Project Components
